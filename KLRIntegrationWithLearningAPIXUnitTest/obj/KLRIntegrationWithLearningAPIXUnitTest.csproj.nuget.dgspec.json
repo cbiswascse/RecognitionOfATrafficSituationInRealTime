@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPIXUnitTest\\KLRIntegrationWithLearningAPIXUnitTest.csproj": {}
+  },
+  "projects": {
+    "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPIXUnitTest\\KLRIntegrationWithLearningAPIXUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPIXUnitTest\\KLRIntegrationWithLearningAPIXUnitTest.csproj",
+        "projectName": "KLRIntegrationWithLearningAPIXUnitTest",
+        "projectPath": "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPIXUnitTest\\KLRIntegrationWithLearningAPIXUnitTest.csproj",
+        "packagesPath": "C:\\Users\\Chandrima Biswas\\.nuget\\packages\\",
+        "outputPath": "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPIXUnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chandrima Biswas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Masters\\SE\\LearningApiPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPI\\KLRIntegrationWithLearningAPI.csproj": {
+                "projectPath": "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPI\\KLRIntegrationWithLearningAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "CsvDataProvider": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "LearningApi": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPI\\KLRIntegrationWithLearningAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPI\\KLRIntegrationWithLearningAPI.csproj",
+        "projectName": "KLRIntegrationWithLearningAPI",
+        "projectPath": "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPI\\KLRIntegrationWithLearningAPI.csproj",
+        "packagesPath": "C:\\Users\\Chandrima Biswas\\.nuget\\packages\\",
+        "outputPath": "D:\\Masters\\SE\\KLRIntegrationWithLearningAPI_Final\\KLRIntegrationWithLearningAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chandrima Biswas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Masters\\SE\\LearningApiPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "LearningApi": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.QualityTools.UnitTestFramework": {
+              "target": "Package",
+              "version": "[11.0.50727.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
