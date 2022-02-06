@@ -1,7 +1,0 @@
-As the file limit for uploading file is 10 MB. Our project with training data file is 237 MB in size. 
-We have found this solution to upload the training dataset files into cloud and provide the link in a 
-.txt file.
-
-The link of the training data set :
-
-https://drive.google.com/open?id=1ik8kDyPuA92guMTXyR2IKnpRASmN_pIO
